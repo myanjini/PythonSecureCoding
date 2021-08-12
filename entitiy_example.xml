@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE Example [
+<!ENTITY from_name "Jake Miller">
+]>
+<Email>
+  <To>Team</To>
+  <From>&from_name;</From>
+  <Subj>Reminder</Subj>
+  <Body>TPS reports due.</Body>
+  <Signature>Thanks, &from_name;</Signature>
+</Email>

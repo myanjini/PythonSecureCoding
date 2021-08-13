@@ -8,7 +8,7 @@ def fn(x, y):
     """ A function which performs a sum """
     return x + y
 
-def find_optinal_route_to_my_office_from_home(start_time,
+def find_optional_route_to_my_office_from_home(start_time,
                                     expected_time,
                                     favorite_route='SBS1K',
                                     favorite_option='bus'):

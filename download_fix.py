@@ -9,7 +9,7 @@ def home():
     if request.method == 'POST':
         help = request.form['help'] 
         path = '/home/nanjini/PythonSecureCoding/helps/'
-        return send_file(path, as_attachment=True)
+        return send_from_directory(path, help, as_attachment=True)
 
     helps = ['Help-A', 'Help-B', 'Help-C', 'Help-D']
     template = '''

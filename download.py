@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     if request.method == 'POST':
         help = request.form['help'] 
-        path = '~/PythonSecureCoding/helps/' + help
+        path = '/home/nanjini/PythonSecureCoding/helps/' + help
         return send_file(path, as_attachment=True)
 
     helps = ['Help-A', 'Help-B', 'Help-C', 'Help-D']

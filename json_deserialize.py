@@ -1,6 +1,4 @@
-import os
 import json
-import datetime
 
 def deserialize():
     with open('./mydata.json', 'r') as f: 

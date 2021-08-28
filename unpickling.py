@@ -3,7 +3,7 @@ import pickle
 
 def deserialize():
     data = ''
-    with open('./mydata.pickle', 'rb') as restoredata: 
+    with open('./pickle.dat', 'rb') as restoredata: 
         data = pickle.load(restoredata)
     return data
 

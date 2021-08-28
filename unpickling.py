@@ -2,10 +2,8 @@ import os
 import pickle
 
 def deserialize():
-    data = ''
     with open('./pickle.dat', 'rb') as restoredata: 
-        data = pickle.load(restoredata)
-    return data
+        return pickle.load(restoredata)
 
 if __name__ == '__main__':
     print(deserialize())

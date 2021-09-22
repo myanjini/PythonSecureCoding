@@ -9,7 +9,7 @@ def hello_ssti():
     if request.args.get('name'):
         person['name'] = request.args.get('name')
 
-    return render_template_string("hello.html", person=person)
+    return render_template("hello.html", person=person)
 
 if __name__ == "__main__":
     app.run(debug=True)
